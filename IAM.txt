@@ -1,0 +1,82 @@
+AWS IAM - IDENTITY AND ACCESS MANAGEMENT
+----------------------------------------
+
+>service provided by aws to manage access to your aws resources reducing the risk of unauthorized access and helping to maintain a secure environment doing authentication and authorization processes
+>acts as a security system for your aws account 
+>provides MFA(multi factor authentication) for added security
+>ensures only authorized individual have appropriate permissions
+>every actions are logged for accountablitiy and compliance purpose
+
+example: 
+>your organization have a aws account using multiple services 
+>you have to create an aws user for newly joined and he is using only two or more services in aws
+>so you created an IAM user account which only having access to those two or more services and h/o to individual
+>so he can do his work and other services do not be disturbed.
+ 
+COMPONENTS
+----------
+USER 
+----
+>IAM users represents individual people or  entities(application or services)  
+>allow people to access AWS account
+>whenever you create a user you have to attach the policies he want to work on the resources
+
+POLICIES
+--------
+>allow people to access the resources in AWS account
+>policies are attached to user
+	eg:- fullaccess to RDS policy is only added to 		
+	individual so he cannot access other resources
+>policies are JSON documents that defines permissions 
+>can customize our own policy
+ 
+GROUPS
+------
+>group make attaching multiple policies to user easier
+	eg:- DEV, QA, DB ADMIN, OTHER
+>people join and leave companies frequently
+>so we can add user to a group and all policies attached to group can be used by the user 
+	eg:- there is a developer group and full access
+	of ec2, s3, route 53 services are given to the 
+	group. so whenever if there is a new developer
+	joined the company. you only create a IAM user 
+	and attach to the user to the group so he can 
+	access all resources in the group
+ROLES
+-----
+>provide access to different AWS services based on permissions they have
+>roles are similar to users but not same as users
+>dont have passwords or access keys
+>provide temporary security credentials to assume that role
+>communicate b/w two AWS accounts
+>what entities can assume a role to use its permissions
+	>AWS user from the same account
+	>AWS user from different account
+	>AWS service
+	>Federated identity 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

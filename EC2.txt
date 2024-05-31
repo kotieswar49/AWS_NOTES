@@ -1,0 +1,71 @@
+AWS - EC2 (ELASTIC COMPUTE CLOUD)
+----------------------------------
+>EC2 is a web service provides elastic compute capacity in the cloud
+>is a virtual machine represents a physical server to deploy your applications
+>have a CPU, RAM ,DISK
+
+WHY & ADVANTAGES
+-----------------
+>scale your instances up or down as you need
+>different types of instance to match the workloads
+>flexible with various operating systems, storage options and network configurations.
+>secure with security groups and key-pair for access
+>maintenance free being a public cloud
+  eg:- timely updates, security issues, server uptime
+>management effort
+>cost effective - pay as you go
+>can be deployed in multiple locations for high availability and fault tolerance
+ 
+KEY COMPONENTS
+--------------
+>AMI -amazon machine image is a operating system run on ec2
+>instance type - can select instance as we need
+>instance state - can start, stop and terminate instance
+
+
+  
+
+TYPES
+-----
+>General Purpose instances 
+  >deliver a balance of compute, memory, and network 
+  resources. 
+  >used for wide range of applications,   
+  including web servers,small databases, development and 
+  test environments, and more.
+
+>Compute Optimized instances 
+  >provide a higher ratio of compute power to memory.  
+  >used for high-performance processing such as batch 
+  processing,scientific\modeling, gaming servers, and 
+  high-performance web servers.
+
+>Memory Optimized instances 
+  >are designed to handle memory-intensive workloads.
+  >used for applications that require large amounts of 
+  memory, such as in-memory databases,real-time big data 
+  analytics, and high-performance computing.
+
+>Storage Optimized instances 
+  >are optimized for applications that require high, 
+  sequential read and write access to large datasets. 
+  >They are ideal for tasks like data warehousing, log 
+  processing, and distributed file systems.
+
+>Accelerated Computing Instances 
+  >typically come with one or more types of accelerators, 
+  such as Graphics Processing Units (GPUs), Field 
+  Programmable Gate Arrays (FPGAs), or custom Application 
+  Specific Integrated Circuits (ASICs). 
+  >These accelerators offload computationally intensive 
+  tasks from the main CPU, enabling faster and more 
+  efficient processing for specific workloads.
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,40 @@
+AWS - VPC (VIRTUAL PRIVATE CLOUD)
+---------------------------------
+>provides a logically isolated area of the AWS cloud where you can launch AWS resources
+>you will have complete control over virtual network environment 
+	>selection of ip address range
+	>creation of subnets
+	>configuration of route tables
+	>network gateway
+>you can customize network configuration of your VPC
+  >can create public-facing subnet for web server that 
+  can access to the internet
+  >can place backend system such as databases or 
+  application servers to a private facing subnet			
+>you can provide multiple layers of security, including 
+ security groups and NACL(network access control list) in 
+ each subnet	
+(source -  https://www.javatpoint.com/aws-vpc )
+
+some ranges are reserved for private subnet
+
+>10.0.0.0 - 10.255.255.255(10/8 prefix)
+>172.16.0.0 - 172.31.255.255(172.16/12 prefix)
+>192.168.0.0 - 192.168.255.255(192.108/16 prefix)
+
+
+
+
+
+
+
+
+components
+>Internet gateway
+>public subnet
+>load balancer
+>route tables
+>security groups
+>NACL
+>NAT gateway/ SNAT
+>VPC flowlogs
